@@ -1,0 +1,20 @@
+/*prova bd*/
+
+	insert into ordem_serviço (id, veiculo_id, cliente_id, data_abertura,disponivel,ordem_servico)
+    values("1", "carro", "Pedro", "18-05-2024","disponivel");
+    
+    select * from veiculo where "veiculo_id";
+	select * from cliente where "cliente";
+	select * from servico where "servico";
+    select * from ordem_servico where "aberta";
+    
+    update ordem_servico set disponivel="fechada" where id=1;
+    
+    /*apagar os dados de uma tabela*/
+    
+    truncate table cliente set carlos;
+    
+     
+    select * from servico;
+    
+    
